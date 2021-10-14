@@ -8,9 +8,9 @@ application: rb_api {
     new_window: yes
     new_window_external_urls: ["https://docs.looker.com/*","https://github.com/*"]
     use_form_submit: yes
-    use_embeds: no
+    use_embeds: yes
     use_downloads: no
-    use_iframes: no
+    use_iframes: yes
     use_clipboard: yes
     external_api_urls: []
     oauth2_urls: []
