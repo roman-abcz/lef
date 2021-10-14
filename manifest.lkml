@@ -12,10 +12,10 @@ application: rb_api {
     use_downloads: no
     use_iframes: no
     use_clipboard: yes
-    core_api_methods: [""]
     external_api_urls: []
     oauth2_urls: []
     scoped_user_attributes: ["user_value"]
     global_user_attributes: ["locale"]
-  }
+    core_api_methods: ["me"]
+    }
 }
