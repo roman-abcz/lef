@@ -1,5 +1,5 @@
-application: rb_api {
-  label: "rb_api"
+application: SampleAWebApp {
+  label: "SampleWebApp"
   #url: "http://localhost:8080/bundle.js"
    file: "bundle.js"
   entitlements: {
