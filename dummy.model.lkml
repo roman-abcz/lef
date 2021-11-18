@@ -1,7 +1,8 @@
 connection: "azure"
 
 #include: "/Campaigns/*.view.lkml"                  # include all views in the views/ folder in this project
-include: "/views/*.view.lkml"
+#include: "/views/*.view.lkml"
+include: "/**/*.view.lkml"
 datagroup: sample_datagroup {
   max_cache_age: "24 hours"
   label: "Sample Datagroup"
